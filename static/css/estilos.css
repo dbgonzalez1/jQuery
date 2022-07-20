@@ -1,0 +1,32 @@
+/*Estilo body*/
+body {
+    background-color: rgb(197, 237, 247);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/*Estilo formulario*/
+.container {
+    padding-top: 40px;
+    background-color: rgb(190, 222, 237);
+}
+
+.container {
+    padding-left: 152px;
+    padding-right: 152px;
+    padding-bottom: 35px;
+}
+
+/*Estilo Navbar*/
+.navy {
+    background-color: rgb(166, 227, 242) !important;
+}
+
+/*Estilo Footer*/
+.foot {
+    background-color: rgb(166, 227, 242) !important;
+}
+
+/*Estilo Botón*/
+.btn {
+    float: right;
+}

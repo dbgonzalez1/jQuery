@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--               Bootstrap para varias versiones                    -->
+    <!-- --------------------------------------------- -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/estilos.css">
+    <title>jQuery</title>
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-light bg-light navy">
+        <a class="navbar-brand lead mb-0" href="#">
+            <span class="glyphicon glyphicon-leaf" width="30" height="30" class="d-inline-block align-top"
+                alt=""></span>
+            &nbsp; Formulario de registro
+        </a>
+    </nav>
+    <!-- Inicio form -->
+    <div class="container">
+        <form>
+            <!--Nombre-->
+            <div class="row">
+                <div class="col">
+                    <label class="control-label" for="nombre">
+                        Nombres
+                    </label>
+                    <div class="input-group">
+                        <input class="form-control" id="nombre" name="nombre" type="text" />
+                        <div class="input-group-addon">
+                            <span class="glyphicon glyphicon-user"></span>
+                        </div>
+                    </div>
+                </div>
+                <!--Apellido-->
+                <div class="col">
+                    <label class="control-label" for="apellido">
+                        Apellidos
+                    </label>
+                    <div class="input-group">
+                        <input class="form-control" id="apellido" name="apellido" type="text" />
+                        <div class="input-group-addon">
+                            <span class="glyphicon glyphicon-user"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>&nbsp;
+            <div class="row">
+                <!--Edad-->
+                <div class="col-3">
+                    <label class="control-label" for="edad">
+                        Edad
+                    </label>
+                    <div class="input-group">
+                        <input class="form-control" id="edad" name="edad" type="number" />
+                        <div class="input-group-addon">
+                            <span class="glyphicon glyphicon-pencil"></span>
+                        </div>
+                    </div>
+                </div>
+                <!--Email-->
+                <div class="col">
+                    <label class="control-label" for="email">
+                        Email
+                    </label>
+                    <div class="input-group">
+                        <input class="form-control" id="email" name="email" type="text" />
+                        <div class="input-group-addon">
+                            <span class="glyphicon glyphicon-envelope"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Subject-->
+            &nbsp;
+            <div class="row">
+                <label class="control-label" for="subject">
+                    Subject
+                </label>
+                <div class="input-group">
+                    <input class="form-control" id="subject" name="subject" type="text" />
+                    <div class="input-group-addon">
+                        <span class="glyphicon glyphicon-tag"></span>
+                    </div>
+                </div>
+                <!--Message-->
+                &nbsp;
+                <label class="control-label" for="message">
+                    Message
+                </label>
+                <div class="form-label">
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <!--Captcha-->
+                &nbsp;
+                <label class="control-label" for="captcha">
+                    Captcha
+                </label>
+                <div class="input-group">
+                    <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+                        data-callback="onRecaptchaSuccess" data-expired-callback="onRecaptchaResponseExpiry"
+                        data-error-callback="onRecaptchaError">
+                    </div>
+                </div>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="check">
+                <p></p>
+                <label class="form-check-label" for="check">Send me a copy of this message</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Send message</button>
+        </form>
+    </div>
+    <!-- Finalización form -->
+    <div>&nbsp;</div>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted foot">
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2022 Copyright:
+            <a class="text-reset fw-bold">Estudiante</a> <a>González Morán Daniela</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+</body>
+
+</html>
+<!-- Link de Boostraps -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
