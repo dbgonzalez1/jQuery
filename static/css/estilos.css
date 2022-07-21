@@ -30,3 +30,10 @@ body {
 .btn {
     float: right;
 }
+
+/* Estilo mensaje */
+
+form .error {
+  color: #ff0000;
+}
+
